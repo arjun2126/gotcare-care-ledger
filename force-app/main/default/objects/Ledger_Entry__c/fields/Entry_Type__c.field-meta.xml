@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entry_Type__c</fullName>
+    <label>Entry Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Authorization Hold</fullName>
+                <default>false</default>
+                <label>Authorization Hold</label>
+            </value>
+            <value>
+                <fullName>Claim Approval</fullName>
+                <default>false</default>
+                <label>Claim Approval</label>
+            </value>
+            <value>
+                <fullName>Claim Debit</fullName>
+                <default>false</default>
+                <label>Claim Debit</label>
+            </value>
+            <value>
+                <fullName>Payment Disbursement</fullName>
+                <default>false</default>
+                <label>Payment Disbursement</label>
+            </value>
+            <value>
+                <fullName>Manual Adjustment</fullName>
+                <default>false</default>
+                <label>Manual Adjustment</label>
+            </value>
+            <value>
+                <fullName>Reversal</fullName>
+                <default>false</default>
+                <label>Reversal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
